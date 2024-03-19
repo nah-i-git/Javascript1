@@ -1,0 +1,58 @@
+*
+{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+li
+{
+    font-family: "Handlee", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body 
+{
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;    
+    background-image: url(./images/1157525-popular-empty-office-wallpaper-1920x1080-720p.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header 
+{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    text-align: center; 
+    display:flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+form
+{
+    text-transform: uppercase;
+    text-align: center; 
+    display:flex;
+    justify-content: center; 
+    align-items: center;
+} 
+
+button, input
+{
+    text-transform: uppercase;
+    padding:15px;
+    margin:5px;
+}
+
+button
+{
+    border: none;
+    font-weight: bolder;
+    color: aliceblue;
+    background-color: black;
+}
