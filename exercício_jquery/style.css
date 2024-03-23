@@ -1,0 +1,76 @@
+*
+{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body 
+{
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;    
+    background-image: url(https://static.vecteezy.com/ti/vetor-gratis/p3/13001514-desenhos-animados-do-guarda-roupa-guarda-roupa-isolado-no-fundo-branco-guarda-roupa-aberto-vazio-com-cabide-prateleiras-e-gavetas-gratis-vetor.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main{
+    flex-grow: 1;
+}
+
+form, h1, li
+{
+    text-transform: uppercase;
+    text-align: center; 
+    display:flex;
+    justify-content: center; 
+    align-items: center;
+    margin-bottom: 110px;
+} 
+
+h1
+{
+    margin-top: 36px;
+    margin-bottom: 15px;
+}
+
+
+button, input
+{
+    text-transform: uppercase;
+    padding:8px;
+    margin:5px;
+}
+
+button
+{
+    border: none;
+    font-weight: bolder;
+    color: aliceblue;
+    background-color: black;
+}
+
+button:hover {
+    background-color: rgba(104, 103, 103, 0.904);
+}
+
+li {
+    display: list-item;
+    text-decoration: none;
+    margin-bottom: 20px;
+    font-family: "Handlee", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+li:hover{
+    font-weight: bold;
+}
+.finalizada{
+    text-decoration: line-through;
+    color: rgb(33, 202, 33);
+    font-weight: bold;  
+}
